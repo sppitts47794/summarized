@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
   </head>
   <body>
-    {% for sentence in summary %}
-      <div class="sentence-wrapper">
-        <li class="items">{{ sentence }}</li>
+    <div class="summarize-wrapper">
+      <h1 id="article-header">{{header}}</h1>
+      {% for sentence in summary %}
+        <div class="sentence-wrapper">
+          <li class="items">{{ sentence }}</li>
+        </div>
+      {% endfor %}
+      <form class="button-container" method="get" action="/">
+        <input id="btn-back" type="submit" value="Home">
       </div>
-    {% endfor %}
-    <form class="button-container" method="get" action="/">
-      <input id="btn-back" type="submit" value="Home">
     </div>
   </body>
 </html>

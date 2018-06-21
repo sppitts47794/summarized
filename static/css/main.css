@@ -46,10 +46,20 @@ body{
 }
 
 /* Summarize.html styling */
+.summarize-wrapper{
+  padding-top: 50px;
+}
+#article-header{
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  font-family: 'Jura';
+}
 .items{
   text-align: center;
+  font-size: 18px;
+  font-family: 'Jura';
 }
-
 .sentence-wrapper{
   margin: auto;
   width: 50%;
