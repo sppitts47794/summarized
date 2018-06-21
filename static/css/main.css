@@ -4,9 +4,72 @@ body{
   margin: 0;
   padding: 0;
 }
-.brand-logo{
+.index-container{
+  text-align: center;
+  padding-top: 200px;
+}
+#logo-text{
+  color: #2196F3;
   font-family: "Jura";
 }
-.row{
+
+#urlfield{
+  width: 750px;
+}
+#numfield{
+  width: 750px;
+}
+#language{
+  width: 750px;
+}
+
+.button-container{
   padding-top: 50px;
+}
+
+#btn-summarize{
+  background: #2196F3;
+  display: inline-block;
+  font-family: 'Jura';
+  width: 200px;
+  padding:25px;
+  letter-spacing: 1px;
+  color: white;
+  border: 1px solid #2196F3;
+  text-align:center;
+  outline:none;
+  text-decoration:none;
+}
+
+#btn-summarize:hover{
+  cursor: pointer;
+}
+
+/* Summarize.html styling */
+.items{
+  text-align: center;
+}
+
+.sentence-wrapper{
+  margin: auto;
+  width: 50%;
+}
+.button-container{
+  text-align: center;
+}
+#btn-back{
+  background: #2196F3;
+  display: inline-block;
+  font-family: 'Jura';
+  width: 200px;
+  padding:25px;
+  letter-spacing: 1px;
+  color: white;
+  border: 1px solid #2196F3;
+  text-align:center;
+  outline:none;
+  text-decoration:none;
+}
+#btn-back:hover{
+  cursor: pointer;
 }
