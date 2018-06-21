@@ -2,11 +2,18 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>URL summarized</title>
+    <title>Your Summary</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
   </head>
   <body>
     {% for sentence in summary %}
-      <li>{{ sentence }}</li>
+      <div class="sentence-wrapper">
+        <li class="items">{{ sentence }}</li>
+      </div>
     {% endfor %}
+    <form class="button-container" method="get" action="/">
+      <input id="btn-back" type="submit" value="Home">
+    </div>
   </body>
 </html>
