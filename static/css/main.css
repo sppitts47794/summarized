@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Jura');
+
+body{
+  margin: 0;
+  padding: 0;
+}
+.brand-logo{
+  font-family: "Jura";
+}
+.row{
+  padding-top: 50px;
+}
