@@ -7,16 +7,19 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
   </head>
   <body class="homebody">
+
     <div class="index-container">
       <h1 id="logo-text">summarized</h1>
-      <form class="form" method="POST" action="/summarized">
+      <form class="form" method="POST" action="/summarized" name="inputform" onsubmit="return formValidation()">
         <input id="urlfield" name="url-field" autocomplete="off" type="url" placeholder="Enter url to be summarized">
           <br>
-        <input id="numfield" type="number" name="quantity" min="1" max="10" placeholder="Choose the # of sentences you want the article to be summarized in">
+        <input id="numfield" type="number" name="quantity" min="1" max="10" placeholder="Choose the # of bullet points">
         <div class="button-container">
           <input id="btn-summarize" type="submit" value="summarize"></input>
         </div>
       </form>
     </div>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='js/form_checking.js') }}"></script>
   </body>
 </html>

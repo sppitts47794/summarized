@@ -1,35 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Jura');
+@import url('https://fonts.googleapis.com/css?family=Jura:700');
 
 body{
   margin: 0;
   padding: 0;
-  background: url("") no-repeat center center;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
 }
 .index-container{
   text-align: center;
-  padding-top: 125px;
+  padding-top: 200px;
+  font-family: 'Jura';
 }
 #logo-text{
   color: #15d1a2;
-  font-family: "Jura";
-  font-size: 76px;
+  font-size: 84px;
 }
-
+.form{
+  padding-top: 25px;
+}
 #urlfield{
-  width: 750px;
-  color: white;
+  width: 800px;
+  font-family: 'Jura';
 }
 #numfield{
-  width: 750px;
-  color: white;
+  width: 800px;
+  font-family: 'Jura';
 }
-/* ::placeholder{
-  color: ;
-} */
+::placeholder{
+  color: black;
+}
 .button-container{
   padding-top: 50px;
 }
@@ -37,7 +35,6 @@ body{
 #btn-summarize{
   background: #15d1a2;
   display: inline-block;
-  font-family: 'Jura';
   width: 200px;
   padding:25px;
   letter-spacing: 1px;
@@ -57,14 +54,14 @@ body{
   padding-top: 50px;
 }
 #article-header{
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
-  font-weight: 500;
+  font-weight: 700;
   font-family: 'Jura';
 }
 .items{
-  text-align: center;
-  font-size: 18px;
+  text-align: left;
+  font-size: 16px;
   font-family: 'Jura';
 }
 .sentence-wrapper{
