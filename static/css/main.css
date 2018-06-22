@@ -3,39 +3,46 @@
 body{
   margin: 0;
   padding: 0;
+  background: url("") no-repeat center center;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
 }
 .index-container{
   text-align: center;
-  padding-top: 200px;
+  padding-top: 125px;
 }
 #logo-text{
-  color: #2196F3;
+  color: #15d1a2;
   font-family: "Jura";
+  font-size: 76px;
 }
 
 #urlfield{
   width: 750px;
+  color: white;
 }
 #numfield{
   width: 750px;
+  color: white;
 }
-#language{
-  width: 750px;
-}
-
+/* ::placeholder{
+  color: ;
+} */
 .button-container{
   padding-top: 50px;
 }
 
 #btn-summarize{
-  background: #2196F3;
+  background: #15d1a2;
   display: inline-block;
   font-family: 'Jura';
   width: 200px;
   padding:25px;
   letter-spacing: 1px;
   color: white;
-  border: 1px solid #2196F3;
+  border: 1px solid #15d1a2;
   text-align:center;
   outline:none;
   text-decoration:none;
@@ -62,20 +69,20 @@ body{
 }
 .sentence-wrapper{
   margin: auto;
-  width: 50%;
+  width: 75%;
 }
 .button-container{
   text-align: center;
 }
 #btn-back{
-  background: #2196F3;
+  background: #15d1a2;
   display: inline-block;
   font-family: 'Jura';
   width: 200px;
   padding:25px;
   letter-spacing: 1px;
   color: white;
-  border: 1px solid #2196F3;
+  border: 1px solid #15d1a2;
   text-align:center;
   outline:none;
   text-decoration:none;
