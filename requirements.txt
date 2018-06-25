@@ -1,0 +1,4 @@
+Flask=0.12.2
+Jinja2=2.8.1
+BeautifulSoup=4.6.0
+urllib2=2.7
