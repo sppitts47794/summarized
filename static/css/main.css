@@ -7,7 +7,7 @@ body{
 }
 .index-container{
   text-align: center;
-  padding-top: 200px;
+  padding-top: 150px;
   font-family: 'Jura';
 }
 #logo-text{
@@ -54,14 +54,14 @@ body{
   padding-top: 50px;
 }
 #article-header{
-  font-size: 22px;
+  font-size: 28px;
   text-align: center;
   font-weight: 700;
   font-family: 'Jura';
 }
 .items{
   text-align: left;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Jura';
 }
 .sentence-wrapper{
