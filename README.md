@@ -1,4 +1,4 @@
-# Summarized [(https://summarized.herokuapp.com/)]
+# Summarized https://summarized.herokuapp.com/
 ##### Summarized is a web application that allows users to enter a url link to an article and summarize the content within 1-10 bulletpoints.
 
 Summarized's logic is built off a python library called 'Sumy'. Sumy uses extractive text summarization to pick portions of text and construct a summary. 
