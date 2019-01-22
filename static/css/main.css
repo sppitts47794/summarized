@@ -7,7 +7,7 @@ body{
 }
 .index-container{
   text-align: center;
-  padding-top: 150px;
+  padding-top: 125px;
   font-family: 'Jura';
 }
 #logo-text{
@@ -15,7 +15,7 @@ body{
   font-size: 84px;
 }
 .form{
-  padding-top: 25px;
+  padding-top: 20px;
 }
 #urlfield{
   width: 800px;
