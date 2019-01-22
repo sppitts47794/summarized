@@ -1,3 +1,6 @@
+import os
+import requests, urllib2
+
 from __future__ import absolute_import
 from __future__ import division, print_function, unicode_literals
 
@@ -14,10 +17,10 @@ from bs4 import BeautifulSoup
 import nltk
 from nltk import sent_tokenize
 
-import requests, urllib2
-
 nltk.download('punkt')
+
 app = Flask(__name__)
+app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'XYZ')
 
 @app.route('/')
 def main():
