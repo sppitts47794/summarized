@@ -7,11 +7,16 @@ from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lsa import LsaSummarizer as Summarizer
 from sumy.nlp.stemmers import Stemmer
 from sumy.utils import get_stop_words
-# Imports flask modules
+
 from flask import Flask, render_template, url_for, request
 from bs4 import BeautifulSoup
+
+import nltk
+from nltk import sent_tokenize
+
 import requests, urllib2
 
+nltk.download('punkt')
 app = Flask(__name__)
 
 @app.route('/')
