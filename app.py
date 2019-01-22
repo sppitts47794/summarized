@@ -1,5 +1,6 @@
 import os
 import requests, urllib2
+from flask import Flask, render_template, url_for, request
 
 from __future__ import absolute_import
 from __future__ import division, print_function, unicode_literals
@@ -11,7 +12,6 @@ from sumy.summarizers.lsa import LsaSummarizer as Summarizer
 from sumy.nlp.stemmers import Stemmer
 from sumy.utils import get_stop_words
 
-from flask import Flask, render_template, url_for, request
 from bs4 import BeautifulSoup
 
 import nltk
