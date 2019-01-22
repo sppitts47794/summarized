@@ -54,8 +54,6 @@ def summarized():
 def get_title():
     # Requests data from url
     URL = request.form['url-field']
-    soup = BeautifulSoup(urllib2.urlopen(URL))
+    response = requests.get(URL)
+    soup = BeautifulSoup(response.content, "html.parser")
     return soup.title.string
-
-if __name__ == '__main__':
-    app.run(debug=True, threaded=True)
