@@ -1,5 +1,5 @@
 import os
-import requests, urllib2
+import requests
 from flask import Flask, render_template, url_for, request
 
 from sumy.parsers.html import HtmlParser
