@@ -1,6 +1,3 @@
-from __future__ import absolute_import
-from __future__ import division, print_function, unicode_literals
-
 import os
 import requests, urllib2
 from flask import Flask, render_template, url_for, request
