@@ -6,9 +6,9 @@ The other technique used in text summarization is abstractive which optimizes th
 The reason I used an extractive text summarization library is due to the evaluation methods contained in sumy.
 
 Sumy Documentation:
-[(https://pypi.org/project/sumy/)]
+https://pypi.org/project/sumy/
 
 'Extractive Text Summarization Techniques With sumy' by, Eric Ondenyi
-[(https://medium.com/@ondenyi.eric/extractive-text-summarization-techniques-with-sumy-3d3b127a0a32)]
+https://medium.com/@ondenyi.eric/extractive-text-summarization-techniques-with-sumy-3d3b127a0a32
 
 
